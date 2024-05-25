@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+**App Overview**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An App that suggests home workouts drawn from an API at random intervals to keep remote workers active
 
-## Available Scripts
+Key points to cover:
 
-In the project directory, you can run:
+- User can select workout structure based on body type and desired results
+- Exercises set to be completed in 5 minute windows
+- Exercises are set at random time intervals ie once every 10mins - 50mins
+- User is notified when to complete an exercise by a gong / buzzer
+  - User will be able to choose to between a selection of notification sounds and be able to import their own sounds
+- User can adjust intensity increasing or decreasing time between exercises and number of sets/reps
+- User can set working hours with End Of Day report presented when work day finishes
+- Calendar functionality to stop timer during meetings and breaks.
+- When exercise has been completed, user must click to to restart timer
+- Alarm continues to sound at 10 second intervals until User confirms they’re starting the Stint
 
-### `npm start`
+**For more guidance on Break times and Productivity see:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://weworkremotely.com/science-says-you-have-to-stop-taking-breaks-wrong-to-be-more-productive](https://weworkremotely.com/science-says-you-have-to-stop-taking-breaks-wrong-to-be-more-productive "smartCard-inline")
