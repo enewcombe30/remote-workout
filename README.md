@@ -1,4 +1,4 @@
-**App Overview**
+**App Idea Space**
 
 An App that suggests home workouts drawn from an API at random intervals to keep remote workers active
 
